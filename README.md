@@ -77,6 +77,7 @@ Enter:
 │
 ├── backup.c
 ├── restore.c
+├── sample.txt
 ├── backups/
 ├── restores/
 └── README.md
