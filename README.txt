@@ -22,6 +22,34 @@ This project simulates a basic secure backup system and demonstrates fundamental
 
 ---
 
+## How to Run
+
+Make sure you are inside the project folder before running the commands.
+
+### 1. Compile the programs
+
+```bash
+gcc backup.c -o backup
+gcc restore.c -o restore
+```
+
+### 2. Run backup
+```bash
+./backup
+```
+
+### 3. Run restore
+```bash
+./restore
+```
+
+Enter:
+- Backup file path (e.g. backups/sample.txt_YYYY-MM-DD_HHMM.bak)
+- Output file name (e.g. restored.txt)
+- Password
+
+---
+
 ## 🛠️ Features
 
 - 🔒 **Password-based encryption (XOR)**
