@@ -28,12 +28,12 @@ Make sure you are inside the project folder before running the commands.
 
 ### 1. Compile the programs
 
-gcc backup.c -o backup
-gcc restore.c -o restore
+```gcc backup.c -o backup```
+```gcc restore.c -o restore```
 
 ### 2. Run backup
 
-./backup
+```./backup```
 
 Enter:
 - File name (e.g. sample.txt)
@@ -41,7 +41,7 @@ Enter:
 
 ### 3. Run restore
 
-./restore
+```./restore```
 
 Enter:
 - Backup file path (e.g. backups/sample.txt_YYYY-MM-DD_HHMM.bak)
