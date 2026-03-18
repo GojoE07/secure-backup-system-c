@@ -22,7 +22,7 @@ This project simulates a basic secure backup system and demonstrates fundamental
 
 ---
 
-##▶️How to Run
+## ▶️How to Run
 
 Make sure you are inside the project folder before running the commands.
 
