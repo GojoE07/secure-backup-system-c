@@ -78,7 +78,7 @@ Enter:
 ├── backup.c
 ├── restore.c
 ├── backups/
-├── restored/
+├── restores/
 └── README.md
 ```
 
@@ -87,7 +87,7 @@ Enter:
 ## 🧪 Test Cases
 
 ### Test Case 1: Backup File
-- Input: `sample.txt`2
+- Input: `sample.txt`
 - Password: `1221`
 - Expected Result: Backup file created in `backups/` with timestamp
 
