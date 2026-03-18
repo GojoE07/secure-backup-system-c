@@ -143,3 +143,16 @@ This project uses XOR-based encryption, which is not secure for real-world appli
 **Aung Khant Paing**
 
 Prospective cybersecurity student with a strong interest in data protection, system resilience, and disaster recovery.
+
+
+
+## 📸 Screenshots
+
+### Backup Process
+![Backup](screenshots/backup.png)
+
+### Restore Process
+![Restore](screenshots/restore.png)
+
+### Project Structure
+![Folder](screenshots/folder.png)
