@@ -72,13 +72,14 @@ Enter:
 
 ## 📁 Project Structure
 
-secure-backup-system-c/
+```secure-backup-system-c/
 │
 ├── backup.c
 ├── restore.c
 ├── backups/
 ├── restored/
 └── README.md
+```
 
 ---
 
