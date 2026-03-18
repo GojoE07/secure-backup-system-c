@@ -29,6 +29,7 @@ Make sure you are inside the project folder before running the commands.
 ### 1. Compile the programs
 
 ```gcc backup.c -o backup```
+
 ```gcc restore.c -o restore```
 
 ### 2. Run backup
