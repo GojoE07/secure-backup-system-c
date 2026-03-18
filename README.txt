@@ -10,7 +10,7 @@ This project was inspired by that experience. I wanted to build a simple system 
 
 ## 💡 Project Overview
 
-This is a secure backup system written in C that allows users to:
+This is an educational secure backup prototype written in C that allows users to:
 - Back up files
 - Encrypt them using a password
 - Store multiple versions using timestamps
@@ -18,6 +18,7 @@ This is a secure backup system written in C that allows users to:
 - Verify passwords before restoring
 
 The goal of this project was to understand how data protection systems work at a low level using file handling in C.
+This project simulates a basic secure backup system and demonstrates fundamental concepts in cybersecurity and data protection.
 
 ---
 
@@ -34,10 +35,22 @@ The goal of this project was to understand how data protection systems work at a
 
 - 📂 **Organized file structure**
   - Backups are stored in a `backups/` folder  
-  - Restored files are saved in a `restored/` folder  
+  - Restored files are saved in a `restores/` folder  
 
 - 📝 **Backup logging**
   - Each backup action is recorded in a log file
+
+---
+
+## 📁 Project Structure
+
+secure-backup-system-c/
+│
+├── backup.c
+├── restore.c
+├── backups/
+├── restored/
+└── README.md
 
 ---
 
@@ -68,8 +81,6 @@ The goal of this project was to understand how data protection systems work at a
 
 Backup created successfully: backups/sample.txt_2026-03-18_2249.bak
 File restored successfully: restored/restored.txt
-
-
 
 ---
 
@@ -103,4 +114,4 @@ This project uses XOR-based encryption, which is not secure for real-world appli
 
 **Aung Khant Paing**
 
-Aspiring cybersecurity student with an interest in data protection and secure systems.
+Prospective cybersecurity student with a strong interest in data protection, system resilience, and disaster recovery.
