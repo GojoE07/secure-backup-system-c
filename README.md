@@ -8,7 +8,7 @@ This project was inspired by that experience. I wanted to build a simple system 
 
 ---
 
-## 💡💡 Project Overview
+## 💡 Project Overview
 
 This is an educational secure backup prototype written in C that allows users to:
 - Back up files
